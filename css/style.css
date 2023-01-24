@@ -18,7 +18,6 @@ header, main, footer {
     background-color: burlywood;
 } 
 
-/*foto modificada para el header*/
 #foto{
     width: 210px;
     height: 210px;
@@ -26,7 +25,6 @@ header, main, footer {
     margin-top: 100px;
 } 
 
-/*parte del navegador donde se encuentran los anclajes*/
 nav {
     background-color: rgb(133, 162, 185);
     border: 3px black solid;
@@ -58,7 +56,6 @@ nav {
     border-left: 3px solid black;
 } 
 
-/*para la ubicacion de la palabra enlace en el nav*/
 .moverenlace {
     padding-right: 20px;
 } 
