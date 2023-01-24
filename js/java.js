@@ -12,4 +12,4 @@ for (let i = 0; i< elementosAcordeon.length; i++){
             panel.style.display = "block";
         }
     })
-}
+} /*esta es la funcion utilizada para hacer que el boton muestre o oculte la informacion*/
