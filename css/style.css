@@ -10,7 +10,7 @@ body {
 .contenedor{
     display: flex;
     align-items: flex-start;
-}
+} 
 
 
 header, main, footer {
@@ -28,14 +28,12 @@ header, main, footer {
 nav {
     background-color: rgb(133, 162, 185);
     border: 3px black solid;
-    display: flex;
-    align-items: flex-start;
 } /*parte del navegador donde se encuentran los anclajes*/
 
 #buscador {
     display: flex;
     padding-left: 20px;
-} 
+}  /*para que los elementos en el nav queden escritos de forma horizontal*/
 
 .espacios {
     padding-left: 10px;
@@ -51,13 +49,13 @@ nav {
     padding-right:20px;
     padding-top: 10px;
     border-left: 3px solid black;
-}
+} /*se utiliza para la colocacion de las barras laterales para cada uno de los
+ anclajes en el enlace*/
 
 .moverenlace {
     padding-right: 20px;
-} /*para la ubicacion de la palabra enlace*/
+} /*para la ubicacion de la palabra enlace en el nav*/
 
-/*para la creacion del boton*/
 .acordeon {
     text-align: left;
     outline: none;
@@ -67,7 +65,7 @@ nav {
     border: none;
     width: 100%;
     font-size: 16px;
-}
+}/*para la creacion del boton*/
 
 .active, .acordeon:hover{
     background-color: yellow; 
